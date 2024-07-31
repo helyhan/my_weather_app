@@ -11,8 +11,8 @@ This Flutter project for mobile devices displays the current weather in your loc
 
 ## Added Project Features
 - Display detailed weather information for the selected city, including:
-  - Today's weather with hourly updates
-  - Daytime temperature trends
+  - Today's weather with hourly updates (includes: temp, icon, time)
+  - Daytime temperature trends 
   - Daytime wind speed trends
   - Sunrise and sunset times
   - Weather forecast for the rest of the week
