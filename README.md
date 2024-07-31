@@ -1,16 +1,23 @@
-# my_weather_app
+# 🌦 Weather Widget
 
-A new Flutter project.
+This Flutter project for mobile devices displays the current weather in your location as well as Miami, New York, or Los Angeles. The [Open Weather API](https://openweathermap.org/api) is used to access current weather data.
 
-## Getting Started
+## Initial Project Feature Specification 
+- Auto-detect the user's location 
+- Display the name of the selected city (default: current location -> otherwise Miami)
+- Show the current temperature in the selected city (e.g 60°F)
+- Display an icon representing the weather condition in the city
+- Include a dropdown menu allowing the user to change the selected city (Current Location, Miami, New York, or Los Angeles)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Added Project Features
+- Display detailed weather information for the selected city, including:
+  - Today's weather with hourly updates
+  - Daytime temperature trends
+  - Daytime wind speed trends
+  - Sunrise and sunset times
+  - Weather forecast for the rest of the week
+- Change the temperature metric from Celsius to Fahrenheit and vice versa by clicking the navigation bar icon
+- Page controller slide view for easy navigation between different city sections
+ 
+### Improvement Notes
+I have included a file named improvement_notes in the project. This file contains a list of improvements I would make if given more time.
