@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter_svg/flutter_svg.dart';
 import 'package:my_weather_app/widgets/bottom_bar.dart';
 import 'package:my_weather_app/widgets/hourly.dart';
 import 'package:my_weather_app/widgets/header.dart';
