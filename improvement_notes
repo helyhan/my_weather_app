@@ -1,0 +1,15 @@
+To improve:
+- Global state management required: work around used - (passed the parents function to the child [callbacks])
+- Load data on resumed : currently only loads data once when app started
+- Complete styling & have a light and dark color scheme depending on whether it's day or night
+- Add defaults if a value doesn't exist (currently '-')
+- Test on iOS (only testing using Android emulator)
+- Depending on the location swap the month and day structure - US is month/day we are day/month format
+- Get the name of the users city from their latitude and longitude - using geocoder
+- Loads the data once in the app but it should refresh when changing between screens
+- Add an environment file for api
+- To handle the scenario better when a user denies their location (maybe show them how to enable it in settings later)
+- Show intermediate custom window to ask for location, so that if it's denied you can ask again
+- No placeholder image for image.network as a default in case icon doesn't load
+- Rest of week shouldn't include today
+- Comment code
