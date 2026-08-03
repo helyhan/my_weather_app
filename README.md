@@ -20,4 +20,4 @@ This Flutter project for mobile devices displays the current weather in your loc
 - Page controller slide view for easy navigation between different city sections
  
 ### Improvement Notes
-I have included a file named improvement_notes in the project. This file contains a list of improvements I would make if given more time.
+I have included a file named improvement_notes in the project. This file contains a list of improvements I would make for future project iterations.
